@@ -1,0 +1,17 @@
+
+@import 'variables/_colors';
+@import 'variables/_mediaqueries';
+
+@import 'base/_fonts';
+//@import 'base/_reset'; this is sending error, not sure why....
+@import 'base/_base';
+
+@import 'layout/_header';
+@import 'layout/_nav';
+@import 'layout/_footer';
+
+@import 'components/_switches';
+//Pages
+@import 'pages/_login.scss';
+@import 'pages/_lighting.scss';
+@import 'pages/_cameras.scss';
